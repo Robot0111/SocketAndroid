@@ -35,8 +35,8 @@ public class JDBCUtil {
 	       }
 	       // 获取数据库的连接
 	       try {
-	           Connection conn  = java.sql.DriverManager.getConnection("jdbc:mysql://39.104.86.193/CHAT?useUnicode=true&characterEncoding=utf-8&useSSL=false", 
-	        		   "root", "luqilai1993@!L");
+	           Connection conn  = java.sql.DriverManager.getConnection("jdbc:mysql://ip/CHAT?useUnicode=true&characterEncoding=utf-8&useSSL=false", 
+	        		   "username", "password");
 	           return conn;
 	       } catch (SQLException e1) {
 	    	   logger.error("数据库连接失败");
