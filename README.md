@@ -1,3 +1,3 @@
 # SocketAndroid
 # WebSocket Android Client
-The server of the chatapp.
+The server of the chat app.
